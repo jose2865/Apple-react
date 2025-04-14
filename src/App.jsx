@@ -32,6 +32,7 @@ function App() {
     <Routes>
       <Route path="/" element={<SharedPage />}> 
         <Route path="/" element={<Mainsection />} />
+        <Route path="/" element={<YoutubeVideos />} />
         <Route path="Mac" element={<Mac />} />
         <Route path="Iphone" element={<Iphone />} />
         <Route path="Ipad" element={<Ipad />} />
