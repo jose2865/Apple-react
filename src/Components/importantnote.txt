@@ -1,0 +1,11 @@
+we use api key by requesting http, we also use channel id, mop everything dynamically to access json file. Fitch youtube videos and post it on the website, youtube channel id does not change. Api key is unique and we have to create it, we need to open gmail or google account.
+
+API_KEY= AIzaSyAoHm_QgepdK2rcGuv1ce7368yAy3oT1QE
+
+apple_channel_id: UCE_M8A5yxnLfW0KghEeajjw
+
+link to find channel id= 
+https://youtube.googleapis.com/youtube/v3/channels?part=id&forUsername=apple&maxResults=3&order=date&key=AIzaSyAoHm_QgepdK2rcGuv1ce7368yAy3oT1QE 
+
+This link helps us to find youtube video datas=
+https://youtube.googleapis.com/youtube/v3/search?part=snippet&channelId=UCE_M8A5yxnLfW0KghEeajjw&maxResults=9&order=date&key=AIzaSyAoHm_QgepdK2rcGuv1ce7368yAy3oT1QE 
